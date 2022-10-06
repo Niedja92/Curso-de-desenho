@@ -22,9 +22,9 @@ header {
 
 h2 {
     position: absolute;
-    font-size: 48px;
+    font-size: 46px;
     top: 72px;
-    right: 0;
+    left: 50%;
     text-transform: uppercase;
     color:black;
     font-weight:bold;
@@ -36,8 +36,8 @@ h2 {
     position: right;
     float: right;
     position: static;
-    width: 25%;
-    padding: 10px;
+    width: 30%;
+    padding: 20px;
 
 }
 
@@ -62,6 +62,10 @@ button {
     display: block;
     background: #ffff66;
     font-weight: bold;
+}
+
+.a {
+    color: black;
 }
 
 button:hover {
@@ -105,3 +109,28 @@ footer {
     margin: 60px 0 0;
     
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: white;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
